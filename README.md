@@ -1,3 +1,3 @@
 # Machine_Learning
 
-Projects
+Description of each project in separate folder.
