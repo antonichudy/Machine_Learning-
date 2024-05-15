@@ -1,10 +1,6 @@
 
 import pandas as pd
 
-# -----------------------------------------------------------------------------#
-# Task 1
-# -----------------------------------------------------------------------------#
-
 def solution_1(Posts, Users):
 
     """ Input the solution here """
@@ -19,10 +15,6 @@ def solution_1(Posts, Users):
     res = result_df.reset_index().iloc[:, [1, 2]]
     return res
 
-# -----------------------------------------------------------------------------#
-# Task 2
-# -----------------------------------------------------------------------------#
-
 def solution_2(Posts, PostLinks):
     """ Input the solution here """
 
@@ -35,11 +27,7 @@ def solution_2(Posts, PostLinks):
     result = tmp3.sort_values(by=["NumLinks", "index"], ascending=[False, True]) \
                  .iloc[:, [1, 2]].reset_index().iloc[:, [1, 2]]
     return result
-
-# -----------------------------------------------------------------------------#
-# Task 3
-# -----------------------------------------------------------------------------#
-
+    
 def solution_3(Comments, Posts, Users):
 
     """ Input the solution here """
@@ -54,11 +42,6 @@ def solution_3(Comments, Posts, Users):
     result2 = result[0:10]
     return result2
 
-
-# -----------------------------------------------------------------------------#
-# Task 4
-# -----------------------------------------------------------------------------#
-
 def solution_4(Posts, Users):
 
     """ Input the solution here """
@@ -72,10 +55,6 @@ def solution_4(Posts, Users):
             .loc[:,["DisplayName", "QuestionsNumber", "AnswersNumber", "Location",
     "Reputation", "UpVotes", "DownVotes"]]
     return tmp4
-    
-# -----------------------------------------------------------------------------#
-# Task 5
-# -----------------------------------------------------------------------------#
 
 def solution_5(Posts, Users):
     """ Input the solution here """
