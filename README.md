@@ -1,3 +1,3 @@
-# Machine_Learning
+# Python
 
 Description of each project in separate folder.
