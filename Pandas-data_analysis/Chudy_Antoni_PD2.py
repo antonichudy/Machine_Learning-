@@ -1,12 +1,4 @@
-### Data Processing in R and Python 2023Z
-### Homework Assignment no. 2
-###
-### IMPORTANT
-### This file should contain only solutions to tasks in the form of a functions
-### definitions and comments to the code.
-###
-#
-# Include imports here
+
 import pandas as pd
 
 # -----------------------------------------------------------------------------#
